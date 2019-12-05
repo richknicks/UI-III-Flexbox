@@ -78,7 +78,7 @@ header {
 }
 
 header nav {
-	display: inline-block;
+	/* display: inline-block; */
 	margin-top: 20px;
 	margin-right: 125px;
 	height: 35px;
@@ -100,13 +100,14 @@ header nav a {
 }
 
 .banner {
+	display: flex;
 }
 
 .banner .banner-text {
 	margin: 0 auto;
 	text-align: center;
 	vertical-align: top;
-	display: inline-block;
+	/* display: inline-block; */
 	width: 49.5%;
 	height: 400px;
 	margin: 20px 0;
