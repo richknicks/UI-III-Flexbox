@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	
 }
 blockquote, q {
 	quotes: none;
@@ -177,11 +177,17 @@ footer {
 
 header {
 	margin-bottom: 20px;
+	
+}
+
+h1 {
+	margin: 0;
+	
 }
 
 nav {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-evenly;
 }
 
 
