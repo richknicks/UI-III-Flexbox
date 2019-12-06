@@ -177,16 +177,19 @@ footer {
 .all-info {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
-	margin: 15px;
+	justify-content: space-between;
+	margin: 15px 0;
 	border-bottom: 1px solid black;
 	
 }
 .info-box {
 	border: 1px solid black;
 	background-color:lightgray;
-	padding: 5px;
-	margin: 20px;
+	
+	margin: 20px 0;
 	width: 40%;
 
+}
+.bottom-section {
+	display: flex;
 }
