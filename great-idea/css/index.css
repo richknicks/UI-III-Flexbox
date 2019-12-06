@@ -176,8 +176,13 @@ footer {
 }
 
 header {
-	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
 	
+	justify-content: flex-end;
 }
 
 h1 {
@@ -229,7 +234,10 @@ p {
 }
 button {
 	margin: 20px;
+	padding: 10px 24px;
 	width: 125px;
+	border: 1px solid black;
+	border-radius: 8px;
 }
 h2 {
 	margin: 20px;
@@ -237,6 +245,7 @@ h2 {
 ul {
 	margin: 0 20px;
 	width: 70%;
+	line-height: 2;
 }
 .bottom-section-h2 {
 	margin: 20px 0;
@@ -248,4 +257,8 @@ ul {
 }
 a:first-child {
 	margin-left: 0;
+}
+
+.services-info-img {
+	margin-top: 20px;
 }
