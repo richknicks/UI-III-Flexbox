@@ -234,3 +234,18 @@ button {
 h2 {
 	margin: 20px;
 }
+ul {
+	margin: 0 20px;
+	width: 70%;
+}
+.bottom-section-h2 {
+	margin: 20px 0;
+	width: 70%;
+}
+.bottom-section-p {
+	margin: 20px 0;
+	width: 70%;
+}
+a:first-child {
+	margin-left: 0;
+}
